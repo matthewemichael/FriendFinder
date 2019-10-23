@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 
-//require(path.join(__dirname, "./app/routing/apiRoutes.js"))(app); 
+require(path.join(__dirname, "./app/routing/apiRoutes.js"))(app); 
 require(path.join(__dirname, "./app/routing/htmlRoutes.js"))(app);
 
 
