@@ -1,0 +1,59 @@
+body {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #fed90f;
+}
+#homeContainer {
+    font-family: 'Short Stack', cursive;
+    color: #424f46;
+}
+
+#surveyContainer {
+    font-family: 'Short Stack', cursive;
+    color: #424f46;
+    background-color: #70d1fe;
+    z-index: 2;
+    box-shadow: 0 8px 16px -6px black;
+    border-radius: 10px;
+
+}
+
+.jumbotron {
+    background-image: url("../images/clouds.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0 8px 16px -6px black;
+}
+
+.jumbotron img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.simpsonsLogo {
+    width: 35vw;
+}
+
+.btn-primary,
+.btn-primary:active,
+.btn-primary:focus
+{
+    background: #107dc0 !important;
+    color: #ffffff;
+}
+
+.btn-primary:hover
+ {
+    background: #f65132 !important;
+    color: white;
+}
+
+.btn:focus,.btn:active {
+    outline: none !important;
+    box-shadow: none;
+ }
