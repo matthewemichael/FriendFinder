@@ -183,7 +183,7 @@
           <img id="match-img" alt="">
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" id="closeModal" class="btn btn-default" data-dismiss="modal">Close</button>
         </div>
       </div>
 
@@ -265,10 +265,19 @@
           $("#results-modal").modal("toggle");
 
         });
+    
       } else {
         alert("Please fill out all fields before submitting!");
       }
+
     });
+
+    // reloads survey page after best match modal is closed
+    $('#closeModal').on('click', function(evt) {
+        location.reload();
+    }
+);
+
   </script>
 
 </body>
