@@ -19,7 +19,7 @@ body {
 }
 
 .jumbotron {
-    background-image: url("../images/clouds.jpg");
+    background-image: url("/images/clouds.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0 auto;

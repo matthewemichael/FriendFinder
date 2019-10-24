@@ -1,6 +1,6 @@
 var friendArray = [{
-    name: "Thing 1",
-    photo: "https://www.pinclipart.com/picdir/middle/150-1505875_clipart-of-ll-thing-one-and-thing-two.png",
+    name: "Barney Gumble",
+    photo: "images/barney-gumble.png",
     scores: [
         "5",
         "2",
@@ -14,8 +14,8 @@ var friendArray = [{
         "1"
     ]
 }, {
-    name: "Thing 2",
-    photo: "https://i.pinimg.com/originals/ed/ff/32/edff329a925843d860fb774df9fa2298.jpg",
+    name: "Bart Simpson",
+    photo: "images/bart-simpson.png",
     scores: [
         "3",
         "1",
