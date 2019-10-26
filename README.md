@@ -11,7 +11,6 @@ In this activity, I built a compatibility-based "FriendFinder" application -- ba
 
 ## Function
 
-- The survey has 10 questions of my choosing. Each answer is on a scale of 1 to 5 based on how much the user agrees or disagrees with a question.
 
 - The `server.js` file requires the basic npm packagess: `express` and `path`.
 
@@ -44,7 +43,10 @@ In this activity, I built a compatibility-based "FriendFinder" application -- ba
       1
     ]
 }
-```
+```  
+
+- The survey has 10 questions of my choosing. Each answer is on a scale of 1 to 5 based on how much the user agrees or disagrees with a question.
+
 
 - The user's most compatible friend is determined by the following:
 
